@@ -1,0 +1,13 @@
+package com.example.controle_spring_m2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ControleSpringM2Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ControleSpringM2Application.class, args);
+    }
+
+}
