@@ -1,15 +1,19 @@
 package com.example.controle_spring_m2.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Weather {
 
+    @ApiModelProperty(notes = "nom de la Ville", required = true, value = "test nomVille", name = "nomVille")
     private String nomVille;
+    @ApiModelProperty(notes = "zip Code", required = true, value = "test zipCode", name = "zipCode")
     private String zipCode;
+    @ApiModelProperty(notes = "degre en celsius", required = true, value = "test degreCelsius", name = "degreCelsius")
     private String degreCelsius;
+    @ApiModelProperty(notes = "temps", required = true, value = "test temps", name = "temps")
     private String temps;
+    @ApiModelProperty(notes = "pays", required = true, value = "pays", name = "pays")
     private String pays;
-
-    public Weather() {
-    }
 
     public Weather(String nomVille, String zipCode, String degreCelsius, String temps, String pays) {
         this.nomVille = nomVille;
