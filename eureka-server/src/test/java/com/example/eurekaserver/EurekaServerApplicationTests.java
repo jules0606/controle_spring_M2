@@ -1,10 +1,10 @@
-package com.example.controle_spring_m2;
+package com.example.eurekaserver;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ControleSpringM2ApplicationTests {
+class EurekaServerApplicationTests {
 
     @Test
     void contextLoads() {
